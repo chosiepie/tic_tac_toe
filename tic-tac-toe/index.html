@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <body>
+        <h1> Tic Tac Toe Offline</h1>
+        <p> Player starting first plays X <br>
+            Player starting second play O </b>
+
+        </p>
+        <br><br>
+
+        <div class="row">
+            <input readonly type="text" id="b1" class="cell" onclick ="cell1();myfunc();">
+            <input readonly type="text" id="b2" class="cell" onclick ="cell2();myfunc();">
+            <input readonly type="text" id="b3" class="cell" onclick ="cell3();myfunc();">
+
+        </div>
+        <div class="row">
+            <input readonly type="text" id="b4" class="cell" onclick ="cell4();myfunc();">
+            <input readonly type="text" id="b5" class="cell" onclick ="cell5();myfunc();">
+            <input readonly type="text" id="b6" class="cell" onclick ="cell6();myfunc();">
+
+        </div>
+        <div class="row">
+            <input readonly type="text" id="b7" class="cell" onclick ="cell7();myfunc();">
+            <input readonly type="text" id="b8" class="cell" onclick ="cell8();myfunc();">
+            <input readonly type="text" id="b9" class="cell" onclick ="cell9();myfunc();">
+
+        </div>
+        <br><br>
+        <div>
+            <button id="restart" onclick = "restartGame()">RESTART
+            </button>
+            <br><br>
+            <p id="print"></p>
+        </div>
+    </body>
+    
+    <script src="script.js"></script>
+</body>
+</html>

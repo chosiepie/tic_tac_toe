@@ -1,1 +1,2 @@
-# tic_tac_toe
+# Tic Tac Toe
+A simple tic tac toe games that can check the winner
